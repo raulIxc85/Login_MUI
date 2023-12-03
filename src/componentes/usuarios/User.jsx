@@ -110,7 +110,7 @@ export default function FormUsuario() {
                                         id="estudios"
                                         select
                                         fullWidth
-                                        label="Select"
+                                        label="Nivel de estudios"
                                     >
                                         {estudio.map((option) => (
                                             <MenuItem key={option.value} value={option.value}>
